@@ -83,7 +83,7 @@ public class Main {
 }*/
 
 //Чтение символа с клавиатуры
-public class Main {
+/*public class Main {
    public static void main (String[] args) 
       throws java.io.IOException { //констр.должна быть указана, потому что примен. system read а поэтому треб.обработка ошибок ввода
          char ch;
@@ -93,4 +93,19 @@ public class Main {
       }
    
 }
+*/
+
+public class Main {
+   public static void main (String[] args)
+   throws java.io.IOException {
+      char ch, answer = 'K'; //тип данных для хранения одного символа
+      
+      System.out.println("Задумана буква между A и Z. ");
+      System.out.println("Попробуй ее угадать");
+      ch = (char) System.in.read ();
+      if (ch == answer) System.out.println("**Правильно**");
+      else System.out.println("...Увы, не угадали.");
+   }
+      
+   }
 
