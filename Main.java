@@ -104,8 +104,14 @@ public class Main {
       System.out.println("Попробуй ее угадать");
       ch = (char) System.in.read ();
       if (ch == answer) System.out.println("**Правильно**");
-      else System.out.println("...Увы, не угадали.");
-   }
+      else {
+         System.out.println("...Увы, не угадали. Задуманная буква находится ");
       
+      //вложенный оператор if
+      
+      if (ch < answer) System.out.println("Дальше по алфавиту.");
+      else System.out.println("Ближе к алфавиту");
+   }
+   }
    }
 
