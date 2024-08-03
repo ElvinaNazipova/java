@@ -95,7 +95,7 @@ public class Main {
 }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String[] args)
    throws java.io.IOException {
       char ch, answer = 'K'; //тип данных для хранения одного символа
@@ -114,4 +114,23 @@ public class Main {
    }
    }
    }
+*/
 
+public class Main {
+   public static void main (String[] args) {
+      int x;
+      for (x=0; x<6; x++) {
+         if (x==1)
+            System.out.println("Значение x равно 1");
+         else if(x==2)
+            System.out.println("Значение x равно 2");
+         else if(x==3)
+            System.out.println("Значение x равно 3");
+         else if(x==4)
+            System.out.println("Значение x равно 4");
+         else 
+            System.out.println("Значение x не находится между 1 и 4");
+         
+      }
+      }
+   }
