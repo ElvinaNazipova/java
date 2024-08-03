@@ -64,7 +64,7 @@ public static void main (String[] args) {
 }
 */ 
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Main {
    public static void main(String[] args) {
@@ -80,5 +80,17 @@ public class Main {
          
       
    }
+}*/
+
+//Чтение символа с клавиатуры
+public class Main {
+   public static void main (String[] args) 
+      throws java.io.IOException { //констр.должна быть указана, потому что примен. system read а поэтому треб.обработка ошибок ввода
+         char ch;
+         System.out.println("Нажмите клавишу и затем ENTER: ");
+         ch = (char) System.in.read();
+         System.out.println("Была нажата клавиша: " + ch);
+      }
+   
 }
 
