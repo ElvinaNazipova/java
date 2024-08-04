@@ -227,7 +227,7 @@ public class Main {
    }
 }
 */
-public class Main {
+/*public class Main {
    public static void main (String[] args) {
       int i = 1; //последоват чисел начинается с 1
       while (i <=512) {   // чтобы цикл выполнялся до тех пор пока будет мненьше или равно 512
@@ -236,3 +236,14 @@ public class Main {
       }
    }
 }
+*/
+
+public class Main {
+   public static void main (String[] args) {
+      int t = 5;
+      do {
+         System.out.println(t);
+         t+=3;
+      } while  (t<=100);
+      }
+   }
