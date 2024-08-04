@@ -270,7 +270,8 @@ public class Main {
       }
    }
 */
-import java.util.Scanner;
+
+/*import java.util.Scanner;
 public class Main {
    public static void main (String[] args) {
       int x = 0, result = 0; //result - хранит значение результата
@@ -285,4 +286,38 @@ public class Main {
       System.out.println("Сумма чисел равна: "+result);
     }
          
+   }
+*/
+
+/*public class Main {
+   public static void main (String[] args) {
+      int population = 10000000;
+      int birth = 14;
+      int death = 8;
+      int dif = birth - death;
+      for (int i = 1; i<=10; i++) {
+         population +=population * dif / 1000;
+      }
+      System.out.println(population);
+   }
+}
+*/
+import java.util.Scanner;
+public class Main {
+   public static void main (String[] args) {
+      Scanner in = new Scanner(System.in);
+      System.out.println("Введите сумму вклада: ");
+      float sum = in.nextInt();
+      System.out.println("Введите срок вклада в месяцах: ");
+      int period = in.nextInt();
+      
+      for (int i =1; i <= period; i++) {
+         sum += sum * 0.007;
+      }
+      System.out.printf("После %d месяцев сумма вклада составит %f", period, sum);
+      in.close();
+      }
+      
+      
+      
    }
