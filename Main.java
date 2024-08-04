@@ -136,7 +136,7 @@ public class Main {
    }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String []args) 
          throws java.io.IOException {
       char choice;
@@ -168,4 +168,41 @@ public class Main {
             
       
    }
+}*/
+
+/*public class Main {
+   public static void main (String[] args) {
+       for (int i = 1; i<6; i++) {
+         System.out.print(i + " ");
+      }
+      
+   }
 }
+*/
+
+/*public class Main {
+   public static void main (String[] args) {
+       for (int i = 1; i<=10; i++) {
+         System.out.println("3*" +i + "=" + 3*i);
+       }
+   }
+}
+*/
+
+import java.util.Scanner;
+public class Main {
+   public static void main (String[] args) {
+      System.out.println("Введите любое целое число");
+      Scanner in = new Scanner (System.in);
+      int n = in.nextInt();
+      int sum=0;
+      for (int i=1; i<=n; i++) {
+         sum = sum + i;
+      }
+      System.out.println(sum);
+      
+   }
+      
+   }
+      
+
