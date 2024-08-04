@@ -207,7 +207,7 @@ public class Main {
    
       */
 
-public class Main {
+/*public class Main {
    public static void main (String []args) {
       int i = 1;
       while (i <=100) {
@@ -215,5 +215,24 @@ public class Main {
          i++;
       }
    }
-}
+}*/
 
+/*public class Main {
+   public static void main (String[] args) {
+      int i = 7; //последоват чисел начинается с 7
+      while (i <=98) {
+         System.out.println (i+"");
+         i+=7; //увеличиваем переменную на 7
+      }
+   }
+}
+*/
+public class Main {
+   public static void main (String[] args) {
+      int i = 1; //последоват чисел начинается с 1
+      while (i <=512) {   // чтобы цикл выполнялся до тех пор пока будет мненьше или равно 512
+         System.out.println (i+"");
+         i*=2; //каждый раз значение умножалось на 2
+      }
+   }
+}
