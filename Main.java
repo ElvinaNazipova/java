@@ -238,7 +238,7 @@ public class Main {
 }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String[] args) {
       int t = 5;
       do {
@@ -246,4 +246,14 @@ public class Main {
          t+=3;
       } while  (t<=100);
       }
+   }
+*/
+
+public class Main {
+   public static void main (String[] args) {
+      for (int i= 1; i <=100; i++) {
+         if (i > 4 && i < 11) continue;
+         System.out.println(i);
+      }
+   }
    }
