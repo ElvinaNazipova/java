@@ -249,11 +249,23 @@ public class Main {
    }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String[] args) {
       for (int i= 1; i <=100; i++) {
          if (i > 4 && i < 11) continue;
          System.out.println(i);
       }
    }
+   }
+*/
+
+public class Main {
+   public static void main (String[] args) {
+      int i = 1;
+      while (true) {
+         if (i > 100) break;
+         System.out.println(i);
+         i++;
+      }
+      }
    }
