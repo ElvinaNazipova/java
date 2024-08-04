@@ -259,7 +259,7 @@ public class Main {
    }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String[] args) {
       int i = 1;
       while (true) {
@@ -268,4 +268,21 @@ public class Main {
          i++;
       }
       }
+   }
+*/
+import java.util.Scanner;
+public class Main {
+   public static void main (String[] args) {
+      int x = 0, result = 0; //result - хранит значение результата
+      Scanner in = new Scanner (System.in);
+      System.out.println("Введите число 0 для получения результата\n");
+      for ( ; ; ) {
+         System.out.println("Введите число: ");
+         x = in.nextInt();
+         if (x == 0) break;
+         result += x;
+      }
+      System.out.println("Сумма чисел равна: "+result);
+    }
+         
    }
