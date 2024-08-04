@@ -189,7 +189,7 @@ public class Main {
 }
 */
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
    public static void main (String[] args) {
       System.out.println("Введите любое целое число");
@@ -204,5 +204,16 @@ public class Main {
    }
       
    }
-      
+   
+      */
+
+public class Main {
+   public static void main (String []args) {
+      int i = 1;
+      while (i <=100) {
+         System.out.println(i);
+         i++;
+      }
+   }
+}
 
