@@ -302,7 +302,7 @@ public class Main {
    }
 }
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main {
    public static void main (String[] args) {
       Scanner in = new Scanner(System.in);
@@ -321,3 +321,23 @@ public class Main {
       
       
    }
+*/
+
+
+
+public class Main {
+   public static void main (String []args) 
+      throws java.io.IOException {
+          char ch;
+          System.out.println("Нажмите клавишу");
+          ch = (char) System.in.read() ;
+          int i = '.';
+          while (ch == '.');
+          }
+       
+                
+      }
+      
+      
+   
+}
