@@ -323,7 +323,7 @@ public class Main {
    }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String []args) {
       String [] arr = new String [7];
       arr[0] = "Понедельник";
@@ -334,6 +334,20 @@ public class Main {
       arr[5] = "Суббота";
       arr[6] = "Воскресенье";
       System.out.println(arr[6]);
+   
+      
+      
+   }
+}*/
+
+public class Main {
+   public static void main (String []args) {
+      double [] arr = new double [4];
+      arr[0] = 9.9;
+      arr[1] = 10.6;
+      arr[2] = 11.4;
+      arr[3] = 988.9;
+      System.out.println(arr[0]);
    
       
       
