@@ -323,21 +323,19 @@ public class Main {
    }
 */
 
-
-
 public class Main {
-   public static void main (String []args) 
-      throws java.io.IOException {
-          char ch;
-          System.out.println("Нажмите клавишу");
-          ch = (char) System.in.read() ;
-          int i = '.';
-          while (ch == '.');
-          }
-       
-                
-      }
-      
-      
+   public static void main (String []args) {
+      String [] arr = new String [7];
+      arr[0] = "Понедельник";
+      arr[1] = "Вторник";
+      arr[2] = "Среда";
+      arr[3] = "Четверг";
+      arr[4] = "Пятница";
+      arr[5] = "Суббота";
+      arr[6] = "Воскресенье";
+      System.out.println(arr[6]);
    
+      
+      
+   }
 }
