@@ -378,7 +378,7 @@ public class Main {
    }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String []args ) {
       int [] arr = {2,5,6,1,3};
       System.out.println("min = " + min(arr));
@@ -399,4 +399,13 @@ public class Main {
       return x;
       
    }
-   }
+   }*/
+
+
+import java.util.Arrays;
+public static void main (String [] args) {
+   int [] arr = {10,5,6,1,3};
+   System.out.println(Arrays.toString(arr));
+   Arrays.sort(arr);
+   System.out.println(Arrays.toString(arr));
+ }
