@@ -340,7 +340,7 @@ public class Main {
    }
 }*/
 
-public class Main {
+/*public class Main {
    public static void main (String []args) {
       double [] arr = new double [4];
       arr[0] = 9.9;
@@ -352,4 +352,51 @@ public class Main {
       
       
    }
-}
+}*/
+
+
+/*public class Main {
+   public static void main (String[] args) {
+      int [][] arr = new int [2] [4];
+      int n = 1;
+      for (int i = 0; i < arr.length; i++) {
+         for (int j = 0; j < arr[i].length; j++) {
+            arr[i][j] = n;
+            n++;
+            
+         }
+      }
+      for (int i = 0; i < arr.length; i++) {
+         for (int j = 0; j < arr[i].length; j++) {
+            System.out.printf("%3s", arr[i] [j]);
+         }
+      System.out.println();
+      
+   }
+     
+      }
+   }
+*/
+
+public class Main {
+   public static void main (String []args ) {
+      int [] arr = {2,5,6,1,3};
+      System.out.println("min = " + min(arr));
+      System.out.println("max = " + max(arr));
+   }
+   public static int max(int[] arr) {
+      int x = arr[0];
+      for (int i = 0; i < arr.length; i++) {
+         if (x < arr[i]) x = arr[i];
+      }
+      return x;
+      }
+   public static int min (int[] arr) {
+      int x = arr [0];
+      for (int i =0; i < arr.length; i++) {
+         if (x > arr[i]) x = arr [i];
+      }
+      return x;
+      
+   }
+   }
