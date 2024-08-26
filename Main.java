@@ -521,4 +521,13 @@ public class Main {
    }
 }*/
 
-
+public class Main {
+   public static void main (String[] args) {
+      int x = -100;
+      x = x >> 2;
+      System.out.printf(Integer.toBinaryString(x));
+      int ch = Integer.toBinaryString(x).length();
+      System.out.println("Количество строк " + ch);
+      }
+   
+}
