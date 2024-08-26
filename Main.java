@@ -524,8 +524,9 @@ public class Main {
 public class Main {
    public static void main (String[] args) {
       int x = -100;
-      x = x >> 2;
-      System.out.printf(Integer.toBinaryString(x));
+      System.out.printf("%s%n", Integer.toBinaryString(x));
+      x = x >> 2; //сдвиг вправо на 2 бита
+      System.out.printf("%s%n", Integer.toBinaryString(x));
       int ch = Integer.toBinaryString(x).length();
       System.out.println("Количество строк " + ch);
       }
