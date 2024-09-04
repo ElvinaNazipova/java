@@ -521,14 +521,26 @@ public class Main {
    }
 }*/
 
-public class Main {
+/*public class Main {
    public static void main (String[] args) {
       int x = -100;
       System.out.printf("%s%n", Integer.toBinaryString(x));
-      x = x >> 2; //сдвиг вправо на 2 бита
+      x = x >>> 2; //сдвиг вправо на 2 бита
       System.out.printf("%s%n", Integer.toBinaryString(x));
       int ch = Integer.toBinaryString(x).length();
       System.out.println("Количество строк " + ch);
       }
    
+}
+*/
+
+public class Main {
+   public static void main (String [] args) {
+      int kal1 = 2;
+      int kal2 = 5;
+      int kal3 = kal1 + kal2;
+      System.out.println("Сумма двух чисел = " + kal3);
+      
+      
+   }
 }
