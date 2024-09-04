@@ -534,7 +534,7 @@ public class Main {
 }
 */
 
-public class Main {
+/*public class Main {
    public static void main (String [] args) {
       int kal1 = 2;
       int kal2 = 5;
@@ -542,5 +542,14 @@ public class Main {
       System.out.println("Сумма двух чисел = " + kal3);
       
       
+   }
+}*/
+
+public class Main {
+   public static void main (String [] args) {
+      int s=0;
+      for (int i = 100; i <= 500; i++)
+      s = s + i;
+      System.out.println(s);
    }
 }
