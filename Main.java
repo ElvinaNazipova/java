@@ -545,11 +545,34 @@ public class Main {
    }
 }*/
 
-public class Main {
+/*public class Main {
    public static void main (String [] args) {
       int s=0;
       for (int i = 100; i <= 500; i++)
       s = s + i;
       System.out.println(s);
+   }
+}*/
+
+/*public class Main {
+   public static void main (String [] args) {
+      
+             int i = 42;
+             String s = (i < 40) ? "life" : (i > 50) ? "universe" : "everything";
+             System.out.println(s);
+         }
+     }
+}
+}*/
+
+
+public class Main {
+   public static void main (String [] args) {
+      
+      double zemlya = 56;
+      double luna = (zemlya * 17)/100;
+      System.out.println(luna);
+       
+      
    }
 }
