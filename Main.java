@@ -566,13 +566,51 @@ public class Main {
 }*/
 
 
-public class Main {
+/*public class Main {
    public static void main (String [] args) {
       
       double zemlya = 56;
       double luna = (zemlya * 17)/100;
       System.out.println(luna);
        
+      
+   }
+}*/
+
+/*public class Main {
+   public static void main (String [] args) {
+      int voise = 335;
+      double time = 7.2;
+      double sec = voise * time;
+      System.out.println(sec);
+      
+   }
+}*/
+
+public class Main {
+   public static void main (String [] args) {
+      int p,q;
+      System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
+      
+      p = 1; q = 1;
+      System.out.print(p+"\t"+q+"\t");
+      System.out.print((p&q)+"\t" + (p|q)+"\t");
+      System.out.println((p^q) + "\t" + (1-p));
+      
+      p = 1; q = 0;
+      System.out.print(p + "\t" + q + "\t");
+      System.out.print((p&q)+"\t" + (p|q)+"\t");
+      System.out.println((p^q) + "\t" + (1-p));
+      
+      p = 0; q = 1;
+      System.out.print(p + "\t" + q + "\t");
+      System.out.print((p&q)+"\t" + (p|q)+"\t");
+      System.out.println((p^q) + "\t" + (1-p));
+      
+      p = 0; q = 0;
+      System.out.print(p + "\t" + q + "\t");
+      System.out.print((p&q)+"\t" + (p|q)+"\t");
+      System.out.println((p^q) + "\t" + (1-p));
       
    }
 }
