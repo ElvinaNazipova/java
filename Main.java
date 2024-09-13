@@ -14,7 +14,7 @@
          System.out.println("Вам нет 18. Пока");
       }
    }
-}*/
+}
 
 /*public class Main {
    
